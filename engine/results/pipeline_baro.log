@@ -1,0 +1,13 @@
+pipeline: 200 flights, mode known, barometer true, phone moved mid-flight false, 30 s
+takeoff time error             mean    -0.7 s  sd    3.5 s  |err| p90    5.9 s  max    6.9 s  missed 0/200
+top of climb time error        mean    -6.2 s  sd    2.0 s  |err| p90    9.0 s  max   10.0 s  missed 0/200
+top of descent time error      mean    -2.9 s  sd    0.7 s  |err| p90    4.0 s  max    4.0 s  missed 0/200
+landing time error             mean    -1.9 s  sd    0.0 s  |err| p90    1.9 s  max    1.9 s  missed 0/200
+top of climb reported after    mean   132.1 s  sd    2.1 s  |err| p90  135.0 s  max  137.0 s  missed 0/200
+top of descent reported after  mean    61.7 s  sd    2.2 s  |err| p90   65.0 s  max   70.0 s  missed 0/200
+landing reported after         mean    22.1 s  sd    0.0 s  |err| p90   22.1 s  max   22.5 s  missed 0/200
+nose axis error: median 0.2 deg, max 0.6 deg, found in 200/200
+extra takeoff or phone-moved events: 0
+position error: median 20.8 km, p90 57.3 km, inside the 95% circle 94.8%
+same flights with ideal cues: median 20.5 km, p90 55.6 km
+last 5 minutes: median 16.7 km, p90 31.8 km

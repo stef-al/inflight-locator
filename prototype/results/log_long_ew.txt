@@ -1,0 +1,62 @@
+magnetic grid (2, 32, 108) built in 0.6s
+  run 4/40  elapsed 57s
+  run 8/40  elapsed 70s
+  run 12/40  elapsed 83s
+  run 16/40  elapsed 96s
+  run 20/40  elapsed 107s
+  run 24/40  elapsed 119s
+  run 28/40  elapsed 132s
+  run 32/40  elapsed 145s
+  run 36/40  elapsed 159s
+  run 40/40  elapsed 173s
+wrote out/final/summary_long_ew.json
+{
+ "gc_km": 6189.292423343968,
+ "typical_track_km": 6194.473721199805,
+ "track_vs_gc_lateral_km": {
+  "max": 120.00000000000084,
+  "mean": 76.06711974560031
+ },
+ "extra_km_vs_gc": {
+  "mean": 31.70771411707653,
+  "sd": 21.532629606142006
+ },
+ "extra_km_vs_track": {
+  "mean": 25.46140060638401,
+  "sd": 22.429828641613415
+ },
+ "airborne_min": {
+  "median": 428.91666666666663,
+  "p10": 398.4916666666667,
+  "p90": 465.73333333333335,
+  "min": 364.5,
+  "max": 505.1666666666667
+ },
+ "path_km": {
+  "median": 6218.885807915518,
+  "p10": 6194.47948324189,
+  "p90": 6252.579717607034
+ },
+ "cosmic_hits_per_flight": {
+  "median": 403.5,
+  "mean": 409.25
+ },
+ "mag": {
+  "F_origin": 49.164058229367164,
+  "I_origin": 65.84260879248897,
+  "F_dest": 50.669330700205535,
+  "I_dest": 65.40167603300416
+ },
+ "cutoff_gv": {
+  "origin": 2.4309555011849375,
+  "dest": 2.5883923526448647
+ },
+ "snaps": {}
+}
+baseline_clock_gc              median=167.8  p90=417.7  p99=805.9  max=1041.1  last5min_median=13.6  last5min_p90=241.2  midflight_median=217.5  midflight_p90=411.3
+A4_track_cues                  median=109.9  p90=342.9  p99=691.3  max=873.6  coverage95=0.93  r95_median=331.5  last5min_median=19.2  last5min_p90=36.8  midflight_median=149.7  midflight_p90=340.8
+A5_track_cues_mag              median=91.7  p90=307.3  p99=616.2  max=830.0  coverage95=0.91  r95_median=301.1  last5min_median=35.3  last5min_p90=58.6  midflight_median=120.5  midflight_p90=313.5
+A7_track_cues_windfc           median=66.5  p90=171.5  p99=273.9  max=344.6  coverage95=0.95  r95_median=174.4  last5min_median=18.6  last5min_p90=36.0  midflight_median=81.6  midflight_p90=158.2
+B1_unknown_compass             median=259.0  p90=769.2  p99=1639.8  max=2236.9  coverage95=0.91  r95_median=701.3  last5min_median=658.7  last5min_p90=1393.6  midflight_median=302.0  midflight_p90=565.6
+B2_unknown_compass_mag         median=136.8  p90=348.5  p99=642.4  max=858.9  coverage95=0.89  r95_median=350.2  last5min_median=266.9  last5min_p90=526.2  midflight_median=155.7  midflight_p90=319.3
+exit 0

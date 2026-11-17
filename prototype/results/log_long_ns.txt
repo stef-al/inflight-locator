@@ -1,0 +1,65 @@
+magnetic grid (2, 95, 46) built in 0.7s
+  run 4/40  elapsed 86s
+  run 8/40  elapsed 114s
+  run 12/40  elapsed 142s
+  run 16/40  elapsed 168s
+  run 20/40  elapsed 195s
+  run 24/40  elapsed 223s
+  run 28/40  elapsed 251s
+  run 32/40  elapsed 277s
+  run 36/40  elapsed 305s
+  run 40/40  elapsed 332s
+wrote out/final/summary_long_ns.json
+{
+ "gc_km": 8690.01345362457,
+ "typical_track_km": 8693.32630012728,
+ "track_vs_gc_lateral_km": {
+  "max": 119.99758517739033,
+  "mean": 76.28568343646846
+ },
+ "extra_km_vs_gc": {
+  "mean": 28.379312004988257,
+  "sd": 21.491619257438696
+ },
+ "extra_km_vs_track": {
+  "mean": 26.967796843177194,
+  "sd": 22.091377640467197
+ },
+ "airborne_min": {
+  "median": 588.2916666666667,
+  "p10": 547.6,
+  "p90": 642.3166666666667,
+  "min": 522.5,
+  "max": 660.3333333333334
+ },
+ "path_km": {
+  "median": 8717.954312101454,
+  "p10": 8693.325907366105,
+  "p90": 8750.360986953023
+ },
+ "cosmic_hits_per_flight": {
+  "median": 277.0,
+  "mean": 277.425
+ },
+ "mag": {
+  "F_origin": 49.164058229367164,
+  "I_origin": 65.84260879248897,
+  "F_dest": 28.237553214186654,
+  "I_dest": -61.692317332046414
+ },
+ "cutoff_gv": {
+  "origin": 2.4309555011849375,
+  "dest": 9.213824787455943
+ },
+ "snaps": {}
+}
+baseline_clock_gc              median=170.1  p90=512.2  p99=825.6  max=968.3  last5min_median=15.0  last5min_p90=503.9  midflight_median=211.0  midflight_p90=485.0
+A4_track_cues                  median=122.6  p90=479.4  p99=742.4  max=976.9  coverage95=0.96  r95_median=466.3  last5min_median=20.6  last5min_p90=45.3  midflight_median=170.7  midflight_p90=426.4
+A5_track_cues_mag              median=57.7  p90=117.4  p99=186.4  max=269.8  coverage95=0.96  r95_median=141.5  last5min_median=32.3  last5min_p90=54.5  midflight_median=50.8  midflight_p90=110.6
+A6_track_cues_mag_cosmic       median=58.6  p90=116.3  p99=180.5  max=260.0  coverage95=0.96  r95_median=141.4  last5min_median=34.4  last5min_p90=53.7  midflight_median=52.1  midflight_p90=118.0
+A7_track_cues_windfc           median=80.4  p90=208.1  p99=347.6  max=501.8  coverage95=0.97  r95_median=227.3  last5min_median=20.0  last5min_p90=44.6  midflight_median=99.9  midflight_p90=197.2
+A9_track_cues_fix              median=52.2  p90=163.2  p99=345.3  max=451.6  coverage95=0.98  r95_median=156.5  last5min_median=19.3  last5min_p90=41.0  midflight_median=18.8  midflight_p90=35.5
+B1_unknown_compass             median=379.0  p90=977.9  p99=1802.6  max=2781.3  coverage95=0.95  r95_median=1061.5  last5min_median=788.2  last5min_p90=1476.1  midflight_median=446.3  midflight_p90=829.7
+B2_unknown_compass_mag         median=192.7  p90=628.7  p99=1524.8  max=3112.0  coverage95=0.91  r95_median=619.1  last5min_median=188.2  last5min_p90=376.6  midflight_median=264.8  midflight_p90=707.7
+B3_unknown_compass_mag_cosmic  median=180.4  p90=613.3  p99=1065.2  max=2530.0  coverage95=0.94  r95_median=644.2  last5min_median=157.4  last5min_p90=368.5  midflight_median=281.5  midflight_p90=701.2
+exit 0

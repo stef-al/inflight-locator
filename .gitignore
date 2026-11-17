@@ -1,0 +1,15 @@
+# build output
+engine/build/
+build/
+*.class
+.gradle/
+local.properties
+# Python
+__pycache__/
+*.pyc
+prototype/out/
+# editors and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
